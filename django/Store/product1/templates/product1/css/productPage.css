@@ -1,0 +1,69 @@
+body{
+	padding: 0;
+	margin: 0 12% 0 12%;
+}
+
+.authorization{
+	float: right;
+	margin: 0;
+}
+
+.authorization li{
+	display: inline;
+}
+
+.logo{
+	margin-top: 20px;
+}
+
+.logo .search{
+	float: right;
+}
+
+.menu .links{
+	float: right;
+}
+
+.menu ul{
+	padding: 15px 0 5px 0;
+}
+
+.menu li{
+	display: inline;
+	text-transform: uppercase;
+	list-style-type: none;
+	margin-left: 7px;
+}
+
+.menu .links p{
+	display: inline;
+}
+
+.menu .menu-buttons a{
+	text-decoration: none;
+	text-transform: none;
+}
+
+.product_info{
+	padding: 20px;
+	border: 1px solid red;
+	width: 700px;
+	height: 550px;
+}
+
+.product-img{
+	width: 350px;
+	float: left;
+}
+
+.info{
+	padding-left: 380px;
+}
+
+.info h1{
+	font-size: 22px;
+}
+
+.info ul{
+	padding-left: 0px;
+}

@@ -1,0 +1,17 @@
+{% extends 'mainPage/index.html' %}
+
+{% block title %}
+    {{ tag.title }} - {{ block.super }}
+{% endblock %}
+
+{% block content %}
+
+    <h1 class="mb-5">Post with "{{ tag.title|title }}" tag:</h1>
+    <div class="row">
+        {% for post in tag.posts.all %}
+            <div style="padding: 0px 50px 0px 50px;">
+                {% include 'mainPage/includes/post_card_template.html' %}
+            </div>
+        {% endfor %}
+    </div>
+{% endblock %}

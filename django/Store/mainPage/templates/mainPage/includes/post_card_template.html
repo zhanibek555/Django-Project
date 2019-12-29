@@ -1,0 +1,16 @@
+<div class="card mb-5" style="width: 18rem;">
+  <img src="{{ post.pic }}" class="card-img-top" alt="..." style="width: 286px; height: 286px; repeat: no-repeat;">
+  <div class="card-body">
+    <h5 class="card-title">{{ post.title }}</h5>
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+  </div>
+  <ul class="list-group list-group-flush">
+    <li class="list-group-item">{{ post.slug }}</li>
+    <li class="list-group-item">{{ post.budy|truncatewords:15 }}</li>
+    <li class="list-group-item">{{ post.date_pub }}</li>
+  </ul>
+  <div class="card-body">
+    <a href="{{ post.get_absolute_url }}" class="card-link">Card link</a>
+    <a href="#" class="card-link">Another link</a>
+  </div>
+</div>
